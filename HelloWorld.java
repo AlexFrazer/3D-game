@@ -1,5 +1,5 @@
 public class HelloWorld implements Runnable {
-  String str;
+	String str;
 	long pause;
 	int index;
 	HelloWorld(String str, long pause) {
@@ -18,5 +18,9 @@ public class HelloWorld implements Runnable {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+	}
+	public static void main(String[] args) {
+		Thread t = new Thread(new HelloWorld("Hello World", 500));
+		t.start();
 	}
 }
