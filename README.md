@@ -2,4 +2,4 @@
 =======
 
 3D game
-PLEASE NOTE this was largely made with the help of professors and other students.
+PLEASE NOTE I do not take full credit for this work.
